@@ -1,3 +1,2 @@
 # Bot or Not
-
-## Intro
+Ethan Marcotte's example from Responsive Web Design.
