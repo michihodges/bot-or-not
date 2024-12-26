@@ -1,0 +1,20 @@
+body {
+    background-color: #DCDBD9;
+    color: #2C2C2C;
+    font: normal 100% Cambria, Georgia, serif;
+  }
+  
+  h1 {
+    font-size: 1.5em; /* 24px (target) / 16px (context) */
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  h1 a {
+    font: bold 0.458333333333333em Calibri, Optima, Arial, sans-serif; /* 11px / 24px */
+    color: #747474;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
