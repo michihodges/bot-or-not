@@ -1,3 +1,23 @@
+/* html5doctor.com/html-5-reset-stylesheet/ */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,time,mark,audio,video { margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; } 
+body { line-height:1; }
+ol,ul { list-style:none; }
+blockquote,q { quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse;border-spacing:0; }
+
+
+.section:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
 body {
     background: #CECECE url("img/body.gif");
     background: url("img/tile.png") repeat-x -2% -230px,
@@ -9,12 +29,61 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-main {
-    margin: 36px auto;
-    width: 960px;
+a {
+	-moz-transition: color 0.3s linear;
+	-o-transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+	transition: color 0.3s linear;
+	color: #D53232;
+	text-decoration: none;
+}
+a:hover {
+	color: #B52A2A;
 }
 
-header {
+.page {
+    margin: 36px auto;
+	width: 960px;
+}
+
+.blog {
     margin: 0 auto 53px;
+	width: 900px;
+}
+
+.blog .main {
+    float: left;
+	width: 566px;
+}
+
+.other {
+	float: right;
+	width: 331px;
+}
+
+.lede {
+    position: relative;
+	z-index: 100;
+
     background: #751910 url("img/blog-title-bg.jpg");
+    color: #F9E3CC;
+    font: normal 1.25em "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;	/* 20px / 16px */
+    padding: 0.8em 5.33333333%;	/* 16px / 20px; 48px / 900px */
+    text-transform: uppercase;
+}
+
+.lede:after {
+	content: ".";
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.lede a {
+	color: #F8F5F2;
+	font-size: 2em;
+	position: relative;
+	z-index: 1;
 }
