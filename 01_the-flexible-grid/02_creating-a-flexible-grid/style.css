@@ -41,25 +41,35 @@ a:hover {
 	color: #B52A2A;
 }
 
+p,
+ul,
+ol {
+	margin-bottom: 1em;
+}
+
 .page {
     margin: 36px auto;
-	width: 960px;
+	/*width: 960px;*/
+    width: 90%;
 }
 
 .blog {
     background: #F8F5F2 url("img/noise.gif");
     margin: 0 auto 53px;
-	width: 900px;
+	/*width: 900px;*/
+    width: 93.75%;
 }
 
 .blog .main {
     float: left;
-	width: 62.8888889%; /* 566px / 900px */
+	/*width: 566px;*/
+    width: 62.8888889%; /* 566px / 900px*/
 }
 
-.other {
+.blog .other {
 	float: right;
-	width: 331px;
+	/*width: 331px;*/
+    width: 36.7777778%; /* 331px / 900px */
 }
 
 .lede {
