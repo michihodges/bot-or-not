@@ -127,6 +127,7 @@ ol {
 	text-align: center;
 	width: 14.556962%; /* 69px / 474px */
 }
+
 .date span {
 	display: block;
 	font-size: 3.83333333em; /* 46px / 12px */
@@ -137,9 +138,11 @@ ol {
 	text-transform: uppercase;
 	margin-bottom: 1em;
 }
+
 .intro {
 	font-size: 1.14285714em; /* 16 / 14 */
 }
+
 blockquote {
 	border: 1px solid #AAA;
 	border: 1px solid rgba(0, 0, 0, 0.12);
@@ -148,4 +151,64 @@ blockquote {
 	font: italic 1.21428571em/1.35 Georgia, Times, serif; /* 17px / 14px */
 	margin-bottom: 0.5em;
 	padding: 1.1em 0 0.1em;
+}
+
+.meta {
+	border-top: 1px solid #999;
+	padding: 1em 0;
+	color: #666;
+	text-align: right;
+}
+
+.meta h1,
+.meta h2 {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.meta h1 {
+	margin-bottom: 0.5em;
+}
+
+.meta h2,
+.meta ul,
+.meta li {
+	display: inline;
+}
+
+.meta cite {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.meta h2 {
+	margin-right: 0.5em;
+}
+
+.meta li:after {
+	content: "\20\2022";
+	color: #AAA;
+}
+
+.meta li:last-child:after {
+	content: "";
+}
+
+.meta a {
+	text-decoration: none;
+	background: #EEE;
+	color: #999;
+	-moz-border-radius: 0.4em;
+	-webkit-border-radius: 0.4em;
+	border-radius: 0.4em;
+	padding: 0.15em 0.7em;
+}
+
+.meta a:before {
+	content: "#";
+}
+
+.meta a:hover {
+	background: #BABABA;
+	color: #FFF;
 }
