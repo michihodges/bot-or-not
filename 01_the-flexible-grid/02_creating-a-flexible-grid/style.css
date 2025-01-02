@@ -212,3 +212,53 @@ blockquote {
 	background: #BABABA;
 	color: #FFF;
 }
+
+.other .section {
+	margin: 40px auto;
+}
+
+.other h1,
+.recent-entries li {
+	border-bottom: 1px solid #B8B7B5;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.other h1 {
+	clear: both;
+	font-size: 0.6875em;			/* 11px / 16px */
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	padding-bottom: 1em;
+}
+
+.recent-entries {
+    width: 69.7885196%;		/* 231 / 331 */
+}
+
+.recent-entries h2 {
+	line-height: 1.1;
+}
+
+.recent-entries h2 a,
+.recent-entries p {
+	padding-left: 23px;
+}
+
+.recent-entries h2 a {
+	display: block;
+}
+
+.recent-entries li {
+	padding: 0.35em 0;
+}
+
+.recent-entries p {
+	color: #666;
+	font-size: 0.8em;
+	margin: 0;
+}
+
+.recent-entries abbr {
+	border-bottom: none;
+}
