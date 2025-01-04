@@ -263,3 +263,7 @@ blockquote {
 .recent-entries abbr {
 	border-bottom: none;
 }
+
+#footer {
+	font-size: 0.8125em;	/* 13/16 */
+}
