@@ -123,9 +123,10 @@ ol {
 	text-shadow: 0 1px 0 #000;
 
     float: left;
-	margin-left: -17.0886076%; /* 81px / 474px */
+	/*margin-left: -17.0886076%; /* 81px / 474px */
 	text-align: center;
-	width: 14.556962%; /* 69px / 474px */
+	/*width: 14.556962%; /* 69px / 474px */
+    width: 100%; /* 69px / 474px */
 }
 
 .date span {
