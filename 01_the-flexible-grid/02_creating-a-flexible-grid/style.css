@@ -101,7 +101,8 @@ ol {
 
 .blog .article {
 	font-size: 0.875em; /* 14px / 16px */
-    padding: 40px 8.48056537%; /* 48px / 566px */
+    /*padding: 40px 8.48056537%; /* 48px / 566px */
+    padding: 40px 0;
 }
 
 .blog .main {
