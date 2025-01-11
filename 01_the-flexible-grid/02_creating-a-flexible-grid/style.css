@@ -102,7 +102,7 @@ ol {
 .blog .article {
 	font-size: 0.875em; /* 14px / 16px */
     /*padding: 40px 8.48056537%; /* 48px / 566px */
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .blog .main {
@@ -216,7 +216,8 @@ blockquote {
 }
 
 .other .section {
-	margin: 40px auto;
+	/*margin: 40px auto;*/
+    margin: 40px 0;
 }
 
 .other h1,
@@ -235,7 +236,7 @@ blockquote {
 }
 
 .recent-entries {
-    width: 69.7885196%;		/* 231 / 331 */
+    /*width: 69.7885196%;		/* 231 / 331 */
 }
 
 .recent-entries h2 {
