@@ -160,6 +160,10 @@ blockquote {
     width: 49.14893617%; /* 231px / 470px */
 }
 
+img {
+    max-width: 100%;
+}
+
 .meta {
 	border-top: 1px solid #999;
 	padding: 1em 0;
