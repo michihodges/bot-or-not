@@ -160,7 +160,10 @@ blockquote {
     width: 49.14893617%; /* 231px / 470px */
 }
 
-img {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
