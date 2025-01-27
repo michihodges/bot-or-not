@@ -155,9 +155,14 @@ blockquote {
 
 .figure {
     float: right;
+    margin-top: 1em;
     margin-bottom: 0.5em;
     margin-left: 2.55319149%; /* 12px / 470px */
+    padding: 10px;
     width: 49.14893617%; /* 231px / 470px */
+    border-radius: 5px;
+    background-color: indigo;
+    color: white;
 }
 
 img,
