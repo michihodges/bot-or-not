@@ -165,6 +165,10 @@ blockquote {
     color: white;
 }
 
+.figure p {
+    margin-bottom: 0;
+}
+
 img,
 embed,
 object,
