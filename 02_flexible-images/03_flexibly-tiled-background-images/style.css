@@ -60,6 +60,10 @@ ol {
     width: 93.75%;
 }
 
+.blog {
+    background: #F8F5F2 url("img/blog-bg.png") repeat-y 63.1111111111111% 0;
+}
+
 .blog .main {
     float: left;
 	/*width: 566px;*/
