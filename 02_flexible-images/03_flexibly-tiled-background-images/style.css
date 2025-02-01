@@ -54,13 +54,10 @@ ol {
 }
 
 .blog {
-    background: #F8F5F2 url("img/noise.gif");
+    /*background: #F8F5F2 url("img/noise.gif");*/
     margin: 0 auto 53px;
 	/*width: 900px;*/
     width: 93.75%;
-}
-
-.blog {
     background: #F8F5F2 url("img/blog-bg.png") repeat-y 63.1111111111111% 0;
 }
 
