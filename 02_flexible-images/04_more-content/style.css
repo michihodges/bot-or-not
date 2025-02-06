@@ -105,6 +105,34 @@ video {
 	display: block;
 }
 
+.nav-primary {
+	background: #5E140D url("-/img/nav-bg.jpg");
+	font: bold 14px "pill-gothic-300mg-1","pill-gothic-300mg-2", Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Helvetica, sans-serif;
+	padding: 1.2em 1em 1em;
+	text-transform: uppercase;
+	top: 24px;
+	z-index: 99;
+}
+.nav-primary:after,
+.lede:after {
+	-moz-box-shadow: 1px -1px 0 #751910, 2px -2px 0 #751910, 3px -3px 0 #751910, 4px -4px 0 #751910, 5px -5px 0 #751910, 6px -6px 0 #751910, 7px -7px 0 #751910, 8px -8px 0 #751910, 9px -9px 0 #751910, 10px -10px 0 #751910, 11px -11px 0 #751910;
+	-webkit-box-shadow: 1px -1px 0 #751910, 2px -2px 0 #751910, 3px -3px 0 #751910, 4px -4px 0 #751910, 5px -5px 0 #751910, 6px -6px 0 #751910, 7px -7px 0 #751910, 8px -8px 0 #751910, 9px -9px 0 #751910, 10px -10px 0 #751910, 11px -11px 0 #751910;
+	box-shadow: 1px -1px 0 #751910, 2px -2px 0 #751910, 3px -3px 0 #751910, 4px -4px 0 #751910, 5px -5px 0 #751910, 6px -6px 0 #751910, 7px -7px 0 #751910, 8px -8px 0 #751910, 9px -9px 0 #751910, 10px -10px 0 #751910, 11px -11px 0 #751910;
+	opacity: 0.2;
+}
+.nav-primary li {
+	display: inline;
+}
+.nav-primary a {
+	color: #EECBA5;
+	padding: 1.2em 1em 1em;
+	position: relative;
+	z-index: 1;
+}
+.nav-primary a:hover {
+	color: #F8F5F2;
+}
+
 .blog {
     /*background: #F8F5F2 url("img/noise.gif");*/
     margin: 0 auto 53px;
