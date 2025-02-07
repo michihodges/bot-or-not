@@ -106,7 +106,7 @@ video {
 }
 
 .nav-primary {
-	background: #5E140D url("-/img/nav-bg.jpg");
+	background: #5E140D url("img/nav-bg.jpg");
 	font: bold 14px "pill-gothic-300mg-1","pill-gothic-300mg-2", Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Helvetica, sans-serif;
 	padding: 1.2em 1em 1em;
 	text-transform: uppercase;
@@ -147,7 +147,7 @@ video {
 
 .welcome,
 .gallery {
-	background: #F8F5F2 url("-/img/noise.gif");
+	background: #F8F5F2 url("img/noise.gif");
 }
 
 .welcome {
@@ -177,7 +177,7 @@ video {
 }
 
 .slide-nav a {
-	background: url("-/img/arrow-left.gif") no-repeat 50% 50%;
+	background: url("img/arrow-left.gif") no-repeat 50% 50%;
 	display: block;
 	float: left;
 	height: 40px;
@@ -186,7 +186,7 @@ video {
 }
 
 a.next {
-	background: url("-/img/arrow-right.gif") no-repeat 25% 50%;
+	background: url("img/arrow-right.gif") no-repeat 25% 50%;
 }
 
 .slide-nav a:hover {
