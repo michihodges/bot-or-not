@@ -507,6 +507,102 @@ blockquote {
 	border-bottom: none;
 }
 
+.gallery {
+	padding-bottom: 2em;
+}
+
+.gallery .main-title {
+	margin: 0 0 20px -10px;
+	padding-left: 0;
+	padding-right: 0;
+	width: 49%;
+}
+
+.gallery ol {
+	float: right;
+	margin: 1em 0 2em;
+	/*margin-right: 5.77777778%;*/	/* 52px / 900px */
+	margin-right: 14.7777778%;		/* 133px / 900px */
+	width: 70.6666667%;				/* 636px / 900px */
+}
+
+.gallery li {
+	float: left;
+	margin-right: 1.88679245%;	/* 12px / 636px */
+	width: 23.5849057%;			/* 150px / 636px */
+}
+
+.gallery .last {
+	margin-right: 0;
+}
+
+.gallery li a {
+	background: #EAEAEA;
+	-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	display: block;
+	padding: 5px 5px 10px;
+	text-align: center;
+}
+
+.gallery li:nth-child(odd) a,
+.gallery .last li:nth-child(even) a {
+	-moz-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+.gallery li:nth-child(even) a,
+.gallery .last li:nth-child(odd) a {
+	-moz-transform: rotate(-8deg);
+	-ms-transform: rotate(-8deg);
+	-o-transform: rotate(-8deg);
+	-webkit-transform: rotate(-8deg);
+	transform: rotate(-8deg);
+}
+
+.gallery p {
+	margin: 0;
+}
+
+.gallery span,
+.gallery img {
+	display: block;
+}
+
+.gallery span {
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.45);
+	-webkit-box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.45);
+	box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.45);
+	-moz-transition: -moz-box-shadow 0.2s linear;
+	-o-transition: box-shadow 0.2s linear;
+	-webkit-transition: -webkit-box-shadow 0.2s linear;
+	-webkit-transition: -webkit-box-shadow 0.2s linear;
+	transition: box-shadow 0.2s linear;
+}
+
+.gallery a:hover span {
+	-moz-box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.75);
+	box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.75);
+}
+
+.gallery cite {
+	font-size: 0.95em;
+	font-style: normal;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	line-height: 1.1;
+	padding: 0.2em 0;
+	text-transform: uppercase;
+}
+
 #footer {
 	font-size: 0.8125em;	/* 13/16 */
 }
