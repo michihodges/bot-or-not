@@ -596,5 +596,6 @@ a.next:hover {
 }
 
 #footer {
+	text-align: center;
 	font-size: 0.8125em;	/* 13/16 */
 }
