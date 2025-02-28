@@ -33,7 +33,7 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-.ie7 body {
+body {
 	background: #CECECE url("../img/body.gif");	/* Stupid IE7 bug is stupid. */
 }
 
