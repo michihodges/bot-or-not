@@ -33,10 +33,6 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-body {
-	background: #CECECE url("../img/body.gif");	/* Stupid IE7 bug is stupid. */
-}
-
 a {
 	-moz-transition: color 0.3s linear;
 	-o-transition: color 0.3s linear;
