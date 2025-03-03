@@ -629,3 +629,60 @@ a.next:hover {
 	text-align: center;
 	font-size: 0.8125em;	/* 13/16 */
 }
+
+/*-  MEDIA QUERIES
+----------------------------------------------------------------------*/
+/* Disable iOS/WinMobile font size changes */
+html {
+	font-size: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*
+	Blog style for: Interim and OMFGHUGE
+*/
+@media screen and (max-width: 768px),
+screen and (min-width: 1200px) {
+	.welcome {
+		margin-bottom: 20px;
+	}
+	.slides,
+	.slides .figure b {
+		width: auto;
+	}
+	.slides .figure b img {
+		max-width: 100%;
+	}
+	.blog {
+		background: #F8F5F2 url("../img/noise.gif");
+	}
+	.blog .main,
+	.blog .other {
+		float: none;
+		width: auto;
+	}
+	.blog .article {
+		margin-bottom: 0;
+	}
+	.blog .other {
+		background: url("../img/noise-gray.gif");
+		padding: 20px 8.48057%;
+	}
+	.other .section {
+		width: auto;
+	}
+    .recent-entries ol {
+		-moz-column-count: 2;
+		-moz-column-width: 48%;
+		-o-column-count: 2;
+		-o-column-width: 48%;
+		-webkit-column-count: 2;
+		-webkit-column-width: 48%;
+		column-count: 2;
+		column-width: 48%;
+	}
+	.meta {
+		text-align: left;
+	}
+}
