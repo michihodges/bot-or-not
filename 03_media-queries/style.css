@@ -686,3 +686,88 @@ screen and (min-width: 1200px) {
 		text-align: left;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	body {
+		background: fixed url("../img/tile.png") repeat-x -50% -40px,
+			url("../img/body.gif") repeat -50% 0,
+			#CECECE;
+	}
+	.ie7 body {
+		background: #CECECE url("../img/body.gif");	/* Stupid IE7 bug is stupid. */
+	}
+	.page {
+		position: relative;
+		margin: 20px;
+		width: auto;
+	}
+	.welcome,
+	.blog,
+	.gallery {
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		margin: 0 0 30px;
+		width: auto;
+	}
+	.lede {
+		font-family: Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+	}
+	.lede a {
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+    .welcome .main {
+		width: auto;
+		margin-top: -5px;
+	}
+	.logo {
+		float: none;
+		margin: 0 auto 20px;
+		position: relative;
+	}
+	.nav-primary {
+		padding: 1.2em 0 1em;
+		margin-bottom: 20px;
+		top: auto;
+		text-align: center;
+	}
+	.nav-primary:after {
+		-moz-box-shadow: -1px 1px 0 #751910, -2px 2px 0 #751910, -3px 3px 0 #751910, -4px 4px 0 #751910, -5px 5px 0 #751910, -6px 6px 0 #751910, -7px 7px 0 #751910, -8px 8px 0 #751910, -9px 9px 0 #751910, -10px 10px 0 #751910, -11px 11px 0 #751910;
+		-webkit-box-shadow: -1px 1px 0 #751910, -2px 2px 0 #751910, -3px 3px 0 #751910, -4px 4px 0 #751910, -5px 5px 0 #751910, -6px 6px 0 #751910, -7px 7px 0 #751910, -8px 8px 0 #751910, -9px 9px 0 #751910, -10px 10px 0 #751910, -11px 11px 0 #751910;
+		box-shadow: -1px 1px 0 #751910, -2px 2px 0 #751910, -3px 3px 0 #751910, -4px 4px 0 #751910, -5px 5px 0 #751910, -6px 6px 0 #751910, -7px 7px 0 #751910, -8px 8px 0 #751910, -9px 9px 0 #751910, -10px 10px 0 #751910, -11px 11px 0 #751910;
+		opacity: 0.2;
+	}
+
+	.date {
+		float: right;
+		margin: 0 0 1em 1em;
+	}
+
+	.gallery .main-title {
+		width: 60%;
+		margin-top: 10px;
+	}
+
+    .gallery li {
+		clear: right;
+		float: right;
+		margin: 0 0 1em;
+		width: 49.0566038%;			/* 312 / 636 */
+	}
+	.gallery li.odd {
+		clear: left;
+		float: left;
+	}
+	.gallery li:nth-child(odd) a,
+	.gallery .last li:nth-child(even) a,
+	.gallery li:nth-child(even) a,
+	.gallery .last li:nth-child(odd) a {
+		-moz-transform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		-webkit-transform: rotate(0);
+		transform: rotate(0);
+	}
+}
