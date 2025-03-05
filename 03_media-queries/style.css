@@ -771,3 +771,30 @@ screen and (min-width: 1200px) {
 		transform: rotate(0);
 	}
 }
+
+/*
+	Nav wrap fix
+*/
+@media screen and (max-width: 520px) {
+	.nav-primary {
+		float: left;
+		width: 100%;
+	}
+	.nav-primary li {
+		clear: left;
+		float: left;
+		width: 48%;
+	}
+	li#nav-rated,
+	li#nav-contact {
+		clear: right;
+		float: right;
+	}
+	.nav-primary a {
+		display: block;
+		padding: 0.45em;
+	}
+	.main-title {
+		font: normal 1.5em Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+	}
+}
