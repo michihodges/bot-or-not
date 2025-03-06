@@ -798,3 +798,38 @@ screen and (min-width: 1200px) {
 		font: normal 1.5em Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
 	}
 }
+
+/*
+	Tiny
+*/
+@media screen and (max-width: 480px) {
+	.logo {
+		width: 33.75%;					/* 162px / 480px */
+	}
+	.recent-entries ol {
+		-moz-column-count: 1;
+		-o-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+	.gallery li,
+	.gallery li.odd {
+		float: none;
+		width: auto;
+	}
+	.gallery .main-title {
+		font-size: 2em;
+		margin-left: 0;
+		width: 80%;
+	}
+	.gallery li a {
+		-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+		-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+		box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+	}
+    .gallery span {
+		-moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.45);
+		-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.45);
+		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.45);
+	}
+}
