@@ -1007,3 +1007,12 @@ screen and (min-width: 1200px) {
 .ie .lede {
 	zoom: 1;
 }
+
+/* Carousel styles */
+/*
+ * responsive-carousel
+ * https://github.com/filamentgroup/responsive-carousel
+ *
+ * Copyright (c) 2012 Filament Group, Inc.
+ * Licensed under the MIT, GPL licenses.
+*/
