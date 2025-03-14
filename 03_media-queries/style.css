@@ -1038,3 +1038,17 @@ screen and (min-width: 1200px) {
 	-o-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
+
+.carousel-slide .carousel-item {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	width: 100%; /* necessary for non-active slides */
+	display: block; /* overrides basic carousel styles */
+	z-index: 1;
+	-webkit-transition: left .2s ease;
+	-moz-transition: left .2s ease;
+	-ms-transition: left .2s ease;
+	-o-transition: left .2s ease;
+	transition: left .2s ease;
+}
