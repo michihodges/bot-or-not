@@ -1052,3 +1052,22 @@ screen and (min-width: 1200px) {
 	-o-transition: left .2s ease;
 	transition: left .2s ease;
 }
+
+.carousel-no-transition .carousel-item {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+.carousel-slide .carousel-active {
+	left: 0;
+	position: relative;
+	z-index: 2;
+}
+.carousel-slide .carousel-in {
+	left: 0;
+}
+.carousel-slide-reverse .carousel-out {
+	left: 100%;
+}
