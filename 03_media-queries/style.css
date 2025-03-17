@@ -648,34 +648,43 @@ html {
 */
 @media screen and (max-width: 768px),
 screen and (min-width: 1200px) {
+
 	.welcome {
 		margin-bottom: 20px;
 	}
+
 	.slides,
 	.slides .figure b {
 		width: auto;
 	}
+
 	.slides .figure b img {
 		max-width: 100%;
 	}
+
 	.blog {
 		background: #F8F5F2 url("../img/noise.gif");
 	}
+
 	.blog .main,
 	.blog .other {
 		float: none;
 		width: auto;
 	}
+
 	.blog .article {
 		margin-bottom: 0;
 	}
+
 	.blog .other {
 		background: url("../img/noise-gray.gif");
 		padding: 20px 8.48057%;
 	}
+
 	.other .section {
 		width: auto;
 	}
+
     .recent-entries ol {
 		-moz-column-count: 2;
 		-moz-column-width: 48%;
@@ -686,6 +695,7 @@ screen and (min-width: 1200px) {
 		column-count: 2;
 		column-width: 48%;
 	}
+
 	.meta {
 		text-align: left;
 	}
