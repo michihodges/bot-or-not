@@ -63,6 +63,7 @@ ol {
 	position: relative;
 	z-index: 100;
 }
+
 .logo:after,
 .nav-primary:after,
 .lede:after {
@@ -91,6 +92,7 @@ video {
 	float: left;
 	width: 16.875%;	/* 162 / 960 */
 }
+
 .logo:after {
 	-moz-box-shadow: -1px 1px 0 #DA2F1E,
         -2px 2px 0 #DA2F1E,
@@ -127,10 +129,12 @@ video {
         -11px 11px 0 #DA2F1E;
 	opacity: 0.5;
 }
+
 .logo a {
 	display: block;
 	padding: 8px 14.8148148% 18px;	/* 24 / 162 */
 }
+
 .logo img {
 	display: block;
 }
