@@ -784,7 +784,7 @@ screen and (min-width: 1200px) {
 		clear: left;
 		float: left;
 	}
-	
+
 	.gallery li:nth-child(odd) a,
 	.gallery .last li:nth-child(even) a,
 	.gallery li:nth-child(even) a,
@@ -801,24 +801,29 @@ screen and (min-width: 1200px) {
 	Nav wrap fix
 */
 @media screen and (max-width: 520px) {
+
 	.nav-primary {
 		float: left;
 		width: 100%;
 	}
+
 	.nav-primary li {
 		clear: left;
 		float: left;
 		width: 48%;
 	}
+
 	li#nav-rated,
 	li#nav-contact {
 		clear: right;
 		float: right;
 	}
+
 	.nav-primary a {
 		display: block;
 		padding: 0.45em;
 	}
+	
 	.main-title {
 		font: normal 1.5em Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
 	}
