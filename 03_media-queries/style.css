@@ -861,7 +861,7 @@ screen and (min-width: 1200px) {
 		-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 		box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 	}
-	
+
     .gallery span {
 		-moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.45);
 		-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.45);
@@ -873,12 +873,14 @@ screen and (min-width: 1200px) {
 	Tinier
 */
 @media screen and (max-width: 360px) {
+
 	.page {
 		margin: 20px 10px;
 	}
 }
 
 @media screen and (min-width: 768px) {
+
 	.gallery span {
 		-moz-transition: -moz-box-shadow 0.1s linear;
 		-ms-transition: -webkit-box-shadow 0.1s linear;
@@ -886,6 +888,7 @@ screen and (min-width: 1200px) {
 		-webkit-transition: -webkit-box-shadow 0.1s linear;
 		transition: box-shadow 0.1s linear;
 	}
+	
 	.gallery a:hover span {
 		-moz-box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.75);
 		-webkit-box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.75);
