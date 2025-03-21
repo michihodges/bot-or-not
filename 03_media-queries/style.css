@@ -1018,7 +1018,7 @@ screen and (min-width: 1200px) {
 		margin: 0 0 20px;
 		width: 49.375%;
 	}
-	
+
 	.blog .other {
 		padding: 10px 8.48057%;
 	}
@@ -1072,15 +1072,19 @@ screen and (min-width: 1200px) {
 	width: 100%;
 	position: relative;
 }
+
 .carousel .carousel-item {
 	display: none;
 }
+
 .carousel .carousel-active {
 	display: block;
 }
+
 .carousel .carousel-nav:nth-child(2) {
 	display: none;
 }
+
 .carousel-slide {
 	position: relative;
 	overflow: hidden;
@@ -1117,9 +1121,11 @@ screen and (min-width: 1200px) {
 	position: relative;
 	z-index: 2;
 }
+
 .carousel-slide .carousel-in {
 	left: 0;
 }
+
 .carousel-slide-reverse .carousel-out {
 	left: 100%;
 }
@@ -1128,6 +1134,7 @@ screen and (min-width: 1200px) {
 .carousel-slide-reverse .carousel-in {
 	left: -100%;
 }
+
 .carousel-slide-reverse .carousel-item {
 	-webkit-transition: left .1s ease;
 	-moz-transition: left .1s ease;
@@ -1135,6 +1142,7 @@ screen and (min-width: 1200px) {
 	-o-transition: left .1s ease;
 	transition: left .1s ease;
 }
+
 .carousel-slide-reverse .carousel-active {
 	left: 0;
 }
