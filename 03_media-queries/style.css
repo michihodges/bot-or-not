@@ -1052,10 +1052,3 @@ screen and (min-width: 1200px) {
 		width: 50%;
 	}
 }
-
-.ie .logo,
-.ie .logo a,
-.ie .nav-primary,
-.ie .lede {
-	zoom: 1;
-}
