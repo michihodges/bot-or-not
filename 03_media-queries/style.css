@@ -663,7 +663,7 @@ screen and (min-width: 1200px) {
 	}
 
 	.blog {
-		background: #F8F5F2 url("../img/noise.gif");
+		background: #F8F5F2 url("img/noise.gif");
 	}
 
 	.blog .main,
@@ -677,7 +677,7 @@ screen and (min-width: 1200px) {
 	}
 
 	.blog .other {
-		background: url("../img/noise-gray.gif");
+		background: url("img/noise-gray.gif");
 		padding: 20px 8.48057%;
 	}
 
@@ -704,13 +704,13 @@ screen and (min-width: 1200px) {
 @media screen and (max-width: 768px) {
 
 	body {
-		background: fixed url("../img/tile.png") repeat-x -50% -40px,
-			url("../img/body.gif") repeat -50% 0,
+		background: fixed url("img/tile.png") repeat-x -50% -40px,
+			url("img/body.gif") repeat -50% 0,
 			#CECECE;
 	}
 
 	.ie7 body {
-		background: #CECECE url("../img/body.gif");	/* Stupid IE7 bug is stupid. */
+		background: #CECECE url("img/body.gif");	/* Stupid IE7 bug is stupid. */
 	}
 
 	.page {
