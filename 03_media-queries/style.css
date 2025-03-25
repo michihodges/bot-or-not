@@ -248,9 +248,11 @@ a.next:hover {
 }
 
 .slides .figcaption {
-	float: right;
-	margin-right: 1.81818181%;		/* 12 / 660 */
-	width: 22.7272727%;				/* 150 / 660 */
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	white-space: nowrap;
 }
 
 .slides p {
@@ -267,10 +269,12 @@ a.next:hover {
 }
 
 .copy {
+	background: #333;
+	background: rgba(0, 0, 0, 0.5);
 	color: #B0B0AE;
 	font-size: 12px;
 	line-height: 13px;
-	padding-top: 1em;
+	padding: 1em;
 	text-align: right;
 }
 
