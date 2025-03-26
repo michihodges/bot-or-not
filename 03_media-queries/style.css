@@ -29,7 +29,8 @@ body {
 		url("img/body.gif") repeat -50% 0,
 		#CECECE;
     color: #303030;
-	font: normal 100%/1.5 Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Helvetica, sans-serif;
+	/*font: normal 100%/1.5 Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, Helvetica, sans-serif;*/
+	font: normal 100%/1.5 Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
 	text-rendering: optimizeLegibility;
 }
 
