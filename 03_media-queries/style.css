@@ -319,22 +319,18 @@ a.next:hover {
 }
 
 .blog {
-    /*background: #F8F5F2 url("img/noise.gif");*/
     margin: 0 auto 53px;
-	/*width: 900px;*/
     width: 93.75%;
     background: #F8F5F2 url("img/blog-bg.png") repeat-y 63.1111111111111% 0;
 }
 
 .blog .main {
     float: left;
-	/*width: 566px;*/
     width: 62.8888889%; /* 566px / 900px*/
 }
 
 .blog .other {
 	float: right;
-	/*width: 331px;*/
     width: 36.7777778%; /* 331px / 900px */
 }
 
@@ -552,7 +548,6 @@ a.next:hover {
 .gallery ol {
 	float: right;
 	margin: 1em 0 2em;
-	/*margin-right: 5.77777778%;*/	/* 52px / 900px */
 	margin-right: 14.7777778%;		/* 133px / 900px */
 	width: 70.6666667%;				/* 636px / 900px */
 }
