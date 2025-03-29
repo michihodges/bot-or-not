@@ -464,7 +464,7 @@ a.next:hover {
 	content: "";
 }
 
-.meta a {
+.meta ul a {
 	text-decoration: none;
 	background: #EEE;
 	color: #999;
@@ -474,11 +474,11 @@ a.next:hover {
 	padding: 0.15em 0.7em;
 }
 
-.meta a:before {
+.meta ul a:before {
 	content: "#";
 }
 
-.meta a:hover {
+.meta ul a:hover {
 	background: #BABABA;
 	color: #FFF;
 }
